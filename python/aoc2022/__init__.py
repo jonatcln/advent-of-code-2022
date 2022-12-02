@@ -1,1 +1,1 @@
-from . import day01
+from . import day01, day02

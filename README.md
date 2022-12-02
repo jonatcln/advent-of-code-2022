@@ -11,7 +11,7 @@ Key: `✱` = 1 star, `🌟` = 2 stars.
 | Day           | Status | [Python](python) |
 | ------------- | :----: | :--------------: |
 | [Day 01][d01] |   🌟   |    [🌟][py01]    |
-| [Day 02][d02] |        |                  |
+| [Day 02][d02] |   🌟   |    [🌟][py02]    |
 | [Day 03][d03] |        |                  |
 | [Day 04][d04] |        |                  |
 | [Day 05][d05] |        |                  |
@@ -77,3 +77,4 @@ Licensed under the [MIT License](LICENSE).
 <!-- Python solutions -->
 
 [py01]: python/aoc2022/day01
+[py02]: python/aoc2022/day02
