@@ -8,33 +8,33 @@ Key: `✱` = 1 star, `🌟` = 2 stars.
 
 (Each star links to the solution of that day in that language.)
 
-| Day           | Status | Python |
-| ------------- | :----: | :----: |
-| [Day 01][d01] |        |        |
-| [Day 02][d02] |        |        |
-| [Day 03][d03] |        |        |
-| [Day 04][d04] |        |        |
-| [Day 05][d05] |        |        |
-| [Day 06][d06] |        |        |
-| [Day 07][d07] |        |        |
-| [Day 08][d08] |        |        |
-| [Day 09][d09] |        |        |
-| [Day 10][d10] |        |        |
-| [Day 11][d11] |        |        |
-| [Day 12][d12] |        |        |
-| [Day 13][d13] |        |        |
-| [Day 14][d14] |        |        |
-| [Day 15][d15] |        |        |
-| [Day 16][d16] |        |        |
-| [Day 17][d17] |        |        |
-| [Day 18][d18] |        |        |
-| [Day 19][d19] |        |        |
-| [Day 20][d20] |        |        |
-| [Day 21][d21] |        |        |
-| [Day 22][d22] |        |        |
-| [Day 23][d23] |        |        |
-| [Day 24][d24] |        |        |
-| [Day 25][d25] |        |        |
+| Day           | Status | [Python](python) |
+| ------------- | :----: | :--------------: |
+| [Day 01][d01] |   🌟   |    [🌟][py01]    |
+| [Day 02][d02] |        |                  |
+| [Day 03][d03] |        |                  |
+| [Day 04][d04] |        |                  |
+| [Day 05][d05] |        |                  |
+| [Day 06][d06] |        |                  |
+| [Day 07][d07] |        |                  |
+| [Day 08][d08] |        |                  |
+| [Day 09][d09] |        |                  |
+| [Day 10][d10] |        |                  |
+| [Day 11][d11] |        |                  |
+| [Day 12][d12] |        |                  |
+| [Day 13][d13] |        |                  |
+| [Day 14][d14] |        |                  |
+| [Day 15][d15] |        |                  |
+| [Day 16][d16] |        |                  |
+| [Day 17][d17] |        |                  |
+| [Day 18][d18] |        |                  |
+| [Day 19][d19] |        |                  |
+| [Day 20][d20] |        |                  |
+| [Day 21][d21] |        |                  |
+| [Day 22][d22] |        |                  |
+| [Day 23][d23] |        |                  |
+| [Day 24][d24] |        |                  |
+| [Day 25][d25] |        |                  |
 
 ## Other years
 
@@ -45,6 +45,8 @@ Key: `✱` = 1 star, `🌟` = 2 stars.
 ## License
 
 Licensed under the [MIT License](LICENSE).
+
+<!-- Puzzles -->
 
 [d01]: https://adventofcode.com/2022/day/1
 [d02]: https://adventofcode.com/2022/day/2
@@ -71,3 +73,7 @@ Licensed under the [MIT License](LICENSE).
 [d23]: https://adventofcode.com/2022/day/23
 [d24]: https://adventofcode.com/2022/day/24
 [d25]: https://adventofcode.com/2022/day/25
+
+<!-- Python solutions -->
+
+[py01]: python/aoc2022/day01
