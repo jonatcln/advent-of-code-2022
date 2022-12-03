@@ -7,6 +7,12 @@ from aoc2022.manager import aoc
 
 
 def main():
+    try:
+        from rich.traceback import install as install_rich_traceback
+        install_rich_traceback(show_locals=True)
+    except ImportError:
+        pass
+
     advent_start = date(aoc.year, 12, 1)
     delta_days = (date.today() - advent_start).days + 1
 

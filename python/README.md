@@ -1,5 +1,14 @@
 # Python
 
+## Dependencies
+
+For nicely highlighted and formatted tracebacks, you can optionally install
+[Rich](https://github.com/Textualize/rich):
+
+```sh
+pip3 install rich
+```
+
 ## How to run?
 
 Put your input files in a folder `input/` using the naming pattern `dayXX.txt`.
