@@ -1,5 +1,6 @@
-from aoc2022.manager import aoc
 from typing import Callable, Iterator
+
+from aoc2022.manager import aoc
 
 
 @aoc.solver(day=4)

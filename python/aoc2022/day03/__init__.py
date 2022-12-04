@@ -1,6 +1,7 @@
+from typing import Iterable
+
 from aoc2022.manager import aoc
 from aoc2022.utils import chunks
-from typing import Iterable
 
 
 @aoc.solver(day=3)
