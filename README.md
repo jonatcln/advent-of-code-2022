@@ -16,7 +16,7 @@ Key: `✱` = 1 star, `🌟` = 2 stars.
 | [Day 04][d04] |   🌟   |    [🌟][py04]    |
 | [Day 05][d05] |   🌟   |    [🌟][py05]    |
 | [Day 06][d06] |   🌟   |    [🌟][py06]    |
-| [Day 07][d07] |        |                  |
+| [Day 07][d07] |   🌟   |    [🌟][py07]    |
 | [Day 08][d08] |        |                  |
 | [Day 09][d09] |        |                  |
 | [Day 10][d10] |        |                  |
@@ -82,3 +82,4 @@ Licensed under the [MIT License](LICENSE).
 [py04]: python/aoc2022/day04
 [py05]: python/aoc2022/day05
 [py06]: python/aoc2022/day06
+[py07]: python/aoc2022/day07
