@@ -1,11 +1,11 @@
 import collections
 import itertools
-from typing import Iterable, Iterator, TypeVar
+from typing import Callable, Iterable, Iterator, TypeVar
 
 from .point import MutablePoint
 
 
-__all__ = ['chunks', 'sliding_window', 'parse_direction']
+__all__ = ['chunks', 'sliding_window', 'starfilter', 'parse_direction']
 
 
 T = TypeVar('T')
@@ -28,6 +28,15 @@ def sliding_window(seq: Iterable[T], n: int) -> Iterator[tuple[T]]:
     for x in seq:
         window.append(x)
         yield tuple(window)
+
+
+ItT = TypeVar('ItT', bound=Iterable)
+
+def starfilter(
+    function: Callable[..., bool],
+    iterable: Iterable[ItT]
+) -> Iterator[ItT]:
+    return (x for x in iterable if function(*x))
 
 
 def parse_direction(raw: str, flip_y=False) -> MutablePoint:
