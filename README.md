@@ -29,7 +29,7 @@ Key: `✱` = 1 star, `🌟` = 2 stars.
 | [Day 17][d17] |   ✱    |                  |
 | [Day 18][d18] |   🌟   |                  |
 | [Day 19][d19] |        |                  |
-| [Day 20][d20] |        |                  |
+| [Day 20][d20] |   🌟   |    [🌟][py20]    |
 | [Day 21][d21] |        |                  |
 | [Day 22][d22] |        |                  |
 | [Day 23][d23] |        |                  |
@@ -86,3 +86,4 @@ Licensed under the [MIT License](LICENSE).
 [py08]: python/aoc2022/day08
 [py09]: python/aoc2022/day09
 [py10]: python/aoc2022/day10
+[py20]: python/aoc2022/day20
