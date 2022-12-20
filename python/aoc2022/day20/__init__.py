@@ -33,7 +33,7 @@ def decrypt(
             if node.value > 0:
                 target = node.forward(node.value % (len(nodes) - 1))
             elif node.value < 0:
-                target = node.backward(abs(node.value - 1) % (len(nodes) - 1))
+                target = node.backward(abs(node.value) % (len(nodes) - 1)).prev
             else:
                 continue
 
